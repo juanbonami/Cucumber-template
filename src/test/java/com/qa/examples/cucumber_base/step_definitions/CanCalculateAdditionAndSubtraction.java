@@ -27,6 +27,7 @@ public class CanCalculateAdditionAndSubtraction {
 	public void isSubtractedFrom(Integer num1, Integer num2) {
 	    actualResult = calculator.subtract(num2, num1);
 	}
+
 	
 	@Then("the result should be {int}")
 	public void theResultShouldBe(Integer expectedResult) {
